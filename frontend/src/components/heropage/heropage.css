@@ -1,0 +1,20 @@
+.cent{
+ 
+    margin: 0 auto;
+    padding: 7rem 0;
+}
+
+
+.button{
+    background: #C8102E
+
+}
+.button:hover{
+    background: #d24b61
+
+}
+
+#color{
+    color: #C8102E !important; 
+    
+}

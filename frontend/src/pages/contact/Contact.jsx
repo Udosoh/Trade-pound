@@ -1,16 +1,16 @@
+import { useState } from 'react'
+import { ChevronDownIcon } from '@heroicons/react/outline'
+import { Switch } from '@headlessui/react'
 
-
-const Contact = () => {
-  return (
-    <div>
-    <h1>This is Contact</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-        Excepturi necessitatibus 
-        labore animi ab quia mollitia laudantium officiis 
-        esse culpa pariatur quo quidem, nemo modi dolor similique!
-         Aliquid ullam sit tempore.</p>
-</div>
-  )
+function classNames(...classes) {
+  return classes.filter(Boolean).join(' ')
 }
 
-export default Contact
+export default function 
+Contact() {
+  const [agreed, setAgreed] = useState(false)
+
+  return (<>
+  <p>about</p>
+  </>)
+}

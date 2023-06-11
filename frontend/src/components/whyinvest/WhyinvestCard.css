@@ -1,0 +1,78 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+   
+    
+}
+
+.cardcont{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    gap: 2rem;
+    align-self: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    padding: 2rem;
+    
+}
+
+.card{
+    width: 100%;
+    max-width: 20rem;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    border-radius: .3rem;
+    
+}
+
+.card:hover{
+    transition: .7s;
+    transform: translateY(-5px);
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.298);
+     transform: scaleY(1rem);
+  
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8rem;
+    text-align: center;
+    
+}
+
+.title h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.title h2{
+    font-weight: 600;
+}
+.cardText{
+    padding-top: 2rem !important;
+}
+.cardtitle{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.fa-solid{
+    width: 30rem;
+}
+.icon{
+    fill: #00205B;;
+    width: 3rem;
+    padding-bottom: 1rem;
+}

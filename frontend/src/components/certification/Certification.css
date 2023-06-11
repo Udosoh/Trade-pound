@@ -1,0 +1,26 @@
+.certificate {
+    max-width: 30rem !important;
+    width: 100%;
+  }
+  
+  .head {
+    font-size: 2rem;
+    color: var(--background-color);
+  }
+  
+  .bdy {
+    background-color: var(--secondary-color);
+  }
+  .ctext {
+    color: var(--background-color);
+  }
+  
+  .details p {
+    margin-left: 0 !important;
+    width: 100%;
+    color: var(--background-color) !important  ;
+    background-color: #fff;
+  }
+  .check{
+      fill: goldenrod;
+  }

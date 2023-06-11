@@ -1,0 +1,109 @@
+.containerprice {
+  display: flex;
+
+  padding: 4rem 1rem;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  align-self: center;
+  justify-self: center;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.house {
+  display: flex;
+  flex-direction: column;
+  padding: 10rem 1rem;
+  align-items: center;
+  text-align: center;
+}
+.cd {
+  width: 20rem;
+  color: rgb(13, 14, 14);
+}
+.ico {
+  fill: #00205b;
+  width: 5rem;
+  padding-bottom: 1rem;
+}
+
+.checktext {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  margin-top: 0.5rem;
+}
+
+.check {
+  width: 10%;
+  max-width: 1rem;
+  align-self: center;
+  fill: goldenrod;
+}
+
+.checktext p {
+  display: flex !important;
+  gap: 1rem !important;
+  align-self: center !important;
+
+  text-align: center !important;
+  align-self: center !important;
+}
+.pricecard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.popular {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: goldenrod;
+  padding: 0.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.sechead {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.sechead__two {
+  font-weight: 700;
+}
+
+.containerprice {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.pricecard {
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+  z-index: 1;
+}
+
+.card__body {
+  width: 100%;
+  max-width: 20rem;
+}
+
+.card__body:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.7s;
+}
+
+.popular:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.7s;
+}

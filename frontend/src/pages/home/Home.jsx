@@ -1,18 +1,21 @@
-
+import Certification from "../components/certification/certification";
+import Stats from "../../components/stats/stats";
+import Heropage from "../../components/heropage/heropage";
+import Pricing from "../../components/pricing/pricing";
+import WhyInvestCard from "../../components/whyinvest/Whyinvestcard";
+import Currency from "../../components/currency/Currency";
 
 const Home = () => {
   return (
-    <div>
-         <div>
-        <h1>This is Home</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Excepturi necessitatibus 
-            labore animi ab quia mollitia laudantium officiis 
-            esse culpa pariatur quo quidem, nemo modi dolor similique!
-             Aliquid ullam sit tempore.</p>
-    </div>
-    </div>
-  )
-}
+    <>
+      <Heropage></Heropage>
+      <WhyInvestCard></WhyInvestCard>
+      <Certification></Certification>
+      <Pricing></Pricing>
+      <Currency></Currency>
+      <Stats></Stats>
+    </>
+  );
+};
 
-export default Home
+export default Home;
